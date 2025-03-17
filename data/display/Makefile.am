@@ -51,3 +51,7 @@ endif
 if HAVE_TEXTLCD
 SUBDIRS += displaytext
 endif
+
+if HAVE_7SEGMENT
+SUBDIRS += 7segment
+endif
