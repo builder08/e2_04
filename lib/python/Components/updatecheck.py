@@ -27,7 +27,7 @@ config.updatecheck.check_update_notifier = ConfigSelection(default='604800', cho
         ('86400', _('daily')),
         ('604800', _('week')),
         ('2419200', _('monthly'))])
-config.updatecheck.check_update_on_boot = ConfigYesNo(default=True)
+config.updatecheck.check_update_on_boot = ConfigYesNo(default=False)
 
 REDC = '\x1b[31m'
 YELLOWC = '\x1b[33m'
